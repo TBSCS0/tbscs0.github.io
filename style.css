@@ -23,9 +23,14 @@ body{
     color: #ffdc4a;
 }
 
+.navbar-toggler{
+    background: #ffdc4a;
+}
+
 .hamburger{
     font-size: 30px;
-    color: #ffffff;
+    font-weight: bold;
+    color: #262626;
 }
 
 .section{
@@ -64,6 +69,7 @@ body{
 .card{
     color: #ffffff;
     background: #303030;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-right: 25px;
     margin-left: 25px;
     margin-top: 25px;
@@ -80,4 +86,18 @@ body{
     position: absolute;
     width: 100%;
     height: 100%;
+}
+
+.card-text, .card-title{
+    text-align: left;
+}
+
+.footer{
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer:hover{
+    color: #ffdc4a;
 }
