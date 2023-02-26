@@ -25,6 +25,7 @@ body{
 
 .navbar-toggler{
     background: #ffdc4a;
+    text-decoration: none;
 }
 
 .hamburger{
@@ -101,3 +102,4 @@ body{
 .footer:hover{
     color: #ffdc4a;
 }
+
