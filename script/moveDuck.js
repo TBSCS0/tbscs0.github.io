@@ -28,10 +28,10 @@ function moveDuck() {
 
     let randOne = getRandomInt(1,100);
     let randTwo = getRandomInt(1,2);
-    if(randOne % 97 === 0 && randTwo % 2 === 0){
+    if(randOne === 42 && randTwo % 2 === 0){
         xDirection *= -1;
     }
-    if(randOne % 97 === 0 && randTwo % 2 !== 0){
+    if(randOne === 42 && randTwo % 2 !== 0){
         yDirection *= -1;
     }
 

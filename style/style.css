@@ -18,17 +18,43 @@ body{
     margin: 10px;
 }
 
-.card:hover{
+.card-engineering:hover{
     color: #ffffff;
     background: none;
     position: relative;
     margin: 10px;
     box-shadow:     0 0 .2rem #fff,
                     0 0 .2rem #fff,
-                    0 0 2rem #ffdc4a,
-                    0 0 0.8rem #ffdc4a,
-                    0 0 2.8rem #ffdc4a,
-                    inset 0 0 1.3rem #ffdc4a;
+                    0 0 2rem #ff0000,
+                    0 0 0.8rem #ff0000,
+                    0 0 2.8rem #ff0000,
+                    inset 0 0 1.3rem #ff0000;
+}
+
+.card-programming:hover{
+    color: #ffffff;
+    background: none;
+    position: relative;
+    margin: 10px;
+    box-shadow:     0 0 .2rem #fff,
+    0 0 .2rem #fff,
+    0 0 2rem #00ff00,
+    0 0 0.8rem #00ff00,
+    0 0 2.8rem #00ff00,
+    inset 0 0 1.3rem #00ff00;
+}
+
+.card-financing:hover{
+    color: #ffffff;
+    background: none;
+    position: relative;
+    margin: 10px;
+    box-shadow:     0 0 .2rem #fff,
+    0 0 .2rem #fff,
+    0 0 2rem #0000ff,
+    0 0 0.8rem #0000ff,
+    0 0 2.8rem #0000ff,
+    inset 0 0 1.3rem #0000ff;
 }
 
 .image-container {
