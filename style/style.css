@@ -86,7 +86,7 @@ body{
 
 .fixed-area{
     position: fixed;
-    bottom: 5px;
+    bottom: 20px;
     width: 15%;
     height: 10%;
     left: 50%;
@@ -96,8 +96,17 @@ body{
     align-items: center; /* Vertically aligns child elements in the center */
 }
 
-.btn-fixed:hover{
-}
+/*.btn-fixed:hover{*/
+/*    color: #ffffff;*/
+/*    background: none;*/
+/*    position: relative;*/
+/*    box-shadow:     0 0 .2rem #fff,*/
+/*    0 0 .2rem #fff,*/
+/*    0 0 2rem #ffffff,*/
+/*    0 0 0.8rem #ffffff,*/
+/*    0 0 2.8rem #ffffff,*/
+/*    inset 0 0 1.3rem #ffffff;*/
+/*}*/
 
 #duckWalk {
     position: absolute;
