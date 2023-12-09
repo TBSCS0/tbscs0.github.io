@@ -87,20 +87,16 @@ body{
 .fixed-area{
     position: fixed;
     bottom: 5px;
+    width: 15%;
+    height: 10%;
     left: 50%;
     transform: translateX(-50%);
+    display: flex; /* This is key for aligning elements */
+    justify-content: center; /* Horizontally aligns child elements in the center */
+    align-items: center; /* Vertically aligns child elements in the center */
 }
 
 .btn-fixed:hover{
-    color: #ffffff;
-    background: none;
-    position: relative;
-    box-shadow:     0 0 .2rem #fff,
-    0 0 .2rem #fff,
-    0 0 2rem #ffffff,
-    0 0 0.8rem #ffffff,
-    0 0 2.8rem #ffffff,
-    inset 0 0 1.3rem #ffffff;
 }
 
 #duckWalk {
