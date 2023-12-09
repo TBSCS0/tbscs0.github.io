@@ -112,6 +112,44 @@ body{
     position: absolute;
 }
 
+.engineering-title{
+    margin: 20px;
+    background: none;
+    color: #ff0000;
+    font-size: 50px;
+    text-align: center;
+}
+
+.engineering-card{
+    background: transparent;
+    color: #ffffff;
+    border-color: #ff0000;
+    margin: 50px 5px 50px 5px;
+    box-shadow:     0 0 .05rem #fff,
+    0 0 .1rem #fff,
+    0 0 1rem #ff0000,
+    0 0 0.4rem #ff0000,
+    0 0 1.4rem #ff0000,
+    inset 0 0 0.5rem #ff0000;
+}
+
+.engineering-card-btn{
+    background: #ff0000;
+    color: #000000;
+    font-weight: bold;
+    border: none;
+    margin: 10px 10px 10px 10px;
+}
+
+.engineering-card-btn:focus, .engineering-card-btn:hover, .engineering-card-btn:active, .engineering-card-btn:active:focus{
+    background: #ff0000;
+    color: #000000;
+    font-weight: bold;
+    border: none;
+    margin: 10px 10px 10px 10px;
+    opacity: 0.5;
+}
+
 .programming-title{
     margin: 20px;
     background: none;
