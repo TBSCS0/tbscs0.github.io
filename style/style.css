@@ -124,7 +124,7 @@ body{
     background: transparent;
     color: #ffffff;
     border-color: #00ff00;
-    margin: 50px 50px 50px 50px;
+    margin: 50px 5px 50px 5px;
     box-shadow:     0 0 .05rem #fff,
     0 0 .1rem #fff,
     0 0 1rem #00ff00,
@@ -162,7 +162,7 @@ body{
     background: transparent;
     color: #ffffff;
     border-color: #0000ff;
-    margin: 50px 50px 50px 50px;
+    margin: 50px 5px 50px 5px;
     box-shadow:     0 0 .05rem #fff,
     0 0 .1rem #fff,
     0 0 1rem #0000ff,
