@@ -22,7 +22,6 @@ body{
     color: #ffffff;
     background: none;
     position: relative;
-    margin: 10px;
     box-shadow:     0 0 .2rem #fff,
                     0 0 .2rem #fff,
                     0 0 2rem #ff0000,
@@ -35,7 +34,6 @@ body{
     color: #ffffff;
     background: none;
     position: relative;
-    margin: 10px;
     box-shadow:     0 0 .2rem #fff,
     0 0 .2rem #fff,
     0 0 2rem #00ff00,
@@ -48,7 +46,6 @@ body{
     color: #ffffff;
     background: none;
     position: relative;
-    margin: 10px;
     box-shadow:     0 0 .2rem #fff,
     0 0 .2rem #fff,
     0 0 2rem #0000ff,
@@ -83,15 +80,27 @@ body{
 .row{
     display: flex;
     align-items: center;
-    height: 100%;
+    height: 90%;
     margin: 0;
 }
 
-.btn-duck{
-    background: none;
+.fixed-area{
     position: fixed;
     bottom: 5px;
-    right: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.btn-fixed:hover{
+    color: #ffffff;
+    background: none;
+    position: relative;
+    box-shadow:     0 0 .2rem #fff,
+    0 0 .2rem #fff,
+    0 0 2rem #ffffff,
+    0 0 0.8rem #ffffff,
+    0 0 2.8rem #ffffff,
+    inset 0 0 1.3rem #ffffff;
 }
 
 #duckWalk {
