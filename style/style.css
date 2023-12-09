@@ -111,3 +111,79 @@ body{
 #duckWalk {
     position: absolute;
 }
+
+.programming-title{
+    margin: 20px;
+    background: none;
+    color: #00ff00;
+    font-size: 50px;
+    text-align: center;
+}
+
+.programming-card{
+    background: transparent;
+    color: #ffffff;
+    border-color: #00ff00;
+    margin: 50px 50px 50px 50px;
+    box-shadow:     0 0 .05rem #fff,
+    0 0 .1rem #fff,
+    0 0 1rem #00ff00,
+    0 0 0.4rem #00ff00,
+    0 0 1.4rem #00ff00,
+    inset 0 0 0.5rem #00ff00;
+}
+
+.programming-card-btn{
+    background: #00ff00;
+    color: #000000;
+    font-weight: bold;
+    border: none;
+    margin: 10px 10px 10px 10px;
+}
+
+.programming-card-btn:focus, .programming-card-btn:hover, .programming-card-btn:active, .programming-card-btn:active:focus{
+    background: #00ff00;
+    color: #000000;
+    font-weight: bold;
+    border: none;
+    margin: 10px 10px 10px 10px;
+    opacity: 0.5;
+}
+
+.financing-title{
+    margin: 20px;
+    background: none;
+    color: #0000ff;
+    font-size: 50px;
+    text-align: center;
+}
+
+.financing-card{
+    background: transparent;
+    color: #ffffff;
+    border-color: #0000ff;
+    margin: 50px 50px 50px 50px;
+    box-shadow:     0 0 .05rem #fff,
+    0 0 .1rem #fff,
+    0 0 1rem #0000ff,
+    0 0 0.4rem #0000ff,
+    0 0 1.4rem #0000ff,
+    inset 0 0 0.5rem #0000ff;
+}
+
+.financing-card-btn{
+    background: #0000ff;
+    color: #000000;
+    font-weight: bold;
+    border: none;
+    margin: 10px 10px 10px 10px;
+}
+
+.financing-card-btn:focus, .financing-card-btn:hover, .financing-card-btn:active, .financing-card-btn:active:focus{
+    background: #0000ff;
+    color: #000000;
+    font-weight: bold;
+    border: none;
+    margin: 10px 10px 10px 10px;
+    opacity: 0.5;
+}
