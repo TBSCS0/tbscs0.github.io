@@ -113,18 +113,22 @@ body{
 }
 
 .engineering-title{
-    margin: 20px;
     background: none;
     color: #ff0000;
     font-size: 50px;
     text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.engineering-news{
+    padding-bottom: 100px;
 }
 
 .engineering-card{
     background: transparent;
     color: #ffffff;
     border-color: #ff0000;
-    margin: 50px 5px 50px 5px;
     box-shadow:     0 0 .05rem #fff,
     0 0 .1rem #fff,
     0 0 1rem #ff0000,
@@ -151,18 +155,22 @@ body{
 }
 
 .programming-title{
-    margin: 20px;
     background: none;
     color: #00ff00;
     font-size: 50px;
     text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.programming-news{
+    padding-bottom: 100px;
 }
 
 .programming-card{
     background: transparent;
     color: #ffffff;
     border-color: #00ff00;
-    margin: 50px 5px 50px 5px;
     box-shadow:     0 0 .05rem #fff,
     0 0 .1rem #fff,
     0 0 1rem #00ff00,
@@ -189,18 +197,22 @@ body{
 }
 
 .financing-title{
-    margin: 20px;
     background: none;
     color: #0000ff;
     font-size: 50px;
     text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.financing-news{
+    padding-bottom: 100px;
 }
 
 .financing-card{
     background: transparent;
     color: #ffffff;
     border-color: #0000ff;
-    margin: 50px 5px 50px 5px;
     box-shadow:     0 0 .05rem #fff,
     0 0 .1rem #fff,
     0 0 1rem #0000ff,
