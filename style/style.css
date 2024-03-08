@@ -121,6 +121,10 @@ body{
     padding-bottom: 50px;
 }
 
+.financing-link{
+    color: #ff0000;
+}
+
 .engineering-news{
     padding-bottom: 100px;
 }
@@ -161,6 +165,10 @@ body{
     text-align: center;
     padding-top: 20px;
     padding-bottom: 50px;
+}
+
+.programming-link{
+    color: #00ff00;
 }
 
 .programming-news{
