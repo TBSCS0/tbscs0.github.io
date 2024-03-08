@@ -137,6 +137,10 @@ body{
     inset 0 0 0.5rem #ff0000;
 }
 
+.programming-link{
+    color: #ff0000;
+}
+
 .engineering-card-btn{
     background: #ff0000;
     color: #000000;
@@ -161,6 +165,10 @@ body{
     text-align: center;
     padding-top: 20px;
     padding-bottom: 50px;
+}
+
+.programming-link{
+    color: #00ff00;
 }
 
 .programming-news{
