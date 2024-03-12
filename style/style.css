@@ -11,6 +11,10 @@ body{
     background: #000000;
 }
 
+p{
+    padding-bottom: 40px;
+}
+
 .card{
     color: #ffffff;
     background: none;
@@ -197,6 +201,52 @@ body{
 
 .programming-card-btn:focus, .programming-card-btn:hover, .programming-card-btn:active, .programming-card-btn:active:focus{
     background: #00ff00;
+    color: #000000;
+    font-weight: bold;
+    border: none;
+    margin: 10px 10px 10px 10px;
+    opacity: 0.5;
+}
+
+.about-title{
+    background: none;
+    color: #ffffff;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.about-link{
+    color: #ffffff;
+}
+
+.about-news{
+    padding-bottom: 100px;
+}
+
+.about-card{
+    background: transparent;
+    color: #ffffff;
+    border-color: #ffffff;
+    box-shadow:     0 0 .05rem #fff,
+    0 0 .1rem #fff,
+    0 0 1rem #ffffff,
+    0 0 0.4rem #ffffff,
+    0 0 1.4rem #ffffff,
+    inset 0 0 0.5rem #ffffff;
+}
+
+.about-card-btn{
+    background: #ffffff;
+    color: #000000;
+    font-weight: bold;
+    border: none;
+    margin: 10px 10px 10px 10px;
+}
+
+.about-card-btn:focus, .about-card-btn:hover, .about-card-btn:active, .about-card-btn:active:focus{
+    background: #ffffff;
     color: #000000;
     font-weight: bold;
     border: none;
