@@ -1,0 +1,55 @@
+#duckWalk {
+    position: absolute;
+}
+
+body{
+    background: #000000;
+    color: #00ff00;
+    font-family: "Roboto Light";
+}
+
+.title{
+    background: none;
+    color: #00ff00;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-size: 30px;
+}
+
+.card-title{
+    text-align: center;
+    font-size: 30px;
+    color: #00ff00;
+}
+
+.wall-card{
+    background: transparent;
+    font-size: 20px;
+    color: #00ff00;
+    border-color: #00ff00;
+    box-shadow:     0 0 .05rem #00ff00,
+    0 0 .1rem #00ff00,
+    0 0 1rem #00ff00,
+    0 0 0.4rem #00ff00,
+    0 0 1.4rem #00ff00,
+    inset 0 0 0.5rem #00ff00;
+    padding: 20px 20px 20px 20px;
+}
+
+.wall-card-btn{
+    background: #00ff00;
+    color: #000000;
+    font-weight: bold;
+    border: none;
+    margin: 10px 10px 10px 10px;
+}
+
+.wall-card-btn:focus, .wall-card-btn:hover, .wall-card-btn:active, .wall-card-btn:active:focus{
+    background: #00ff00;
+    color: #000000;
+    font-weight: bold;
+    border: none;
+    margin: 10px 10px 10px 10px;
+    opacity: 0.5;
+}
