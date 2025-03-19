@@ -5,7 +5,7 @@
 body{
     background: #000000;
     color: #00ff00;
-    font-family: "Roboto Light";
+    font-family: "Roboto";
 }
 
 .title{
@@ -19,7 +19,7 @@ body{
 
 .card-title{
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     color: #00ff00;
 }
 
@@ -34,7 +34,6 @@ body{
     0 0 0.4rem #00ff00,
     0 0 1.4rem #00ff00,
     inset 0 0 0.5rem #00ff00;
-    padding: 20px 20px 20px 20px;
 }
 
 .wall-card-btn{
@@ -42,7 +41,6 @@ body{
     color: #000000;
     font-weight: bold;
     border: none;
-    margin: 10px 10px 10px 10px;
 }
 
 .wall-card-btn:focus, .wall-card-btn:hover, .wall-card-btn:active, .wall-card-btn:active:focus{
@@ -50,6 +48,5 @@ body{
     color: #000000;
     font-weight: bold;
     border: none;
-    margin: 10px 10px 10px 10px;
     opacity: 0.5;
 }
