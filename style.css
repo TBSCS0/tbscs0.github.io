@@ -20,10 +20,14 @@ body{
 .card-title{
     text-align: center;
     font-size: 30px;
-    color: #00ff00;
+    margin-bottom: 50px;
 }
 
-.wall-card{
+.card-branch{
+    margin-bottom: 50px;
+}
+
+.card{
     background: transparent;
     font-size: 20px;
     color: #00ff00;
@@ -35,16 +39,19 @@ body{
     0 0 1.4rem #00ff00,
     inset 0 0 0.5rem #00ff00;
     padding: 10px 10px 10px 10px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
-.wall-card-btn{
+.button{
     background: #00ff00;
     color: #000000;
     font-weight: bold;
     border: none;
+    margin-left: 2%;
 }
 
-.wall-card-btn:focus, .wall-card-btn:hover, .wall-card-btn:active, .wall-card-btn:active:focus{
+.button:focus, .button:hover, .button:active, .button:active:focus{
     background: #00ff00;
     color: #000000;
     font-weight: bold;
